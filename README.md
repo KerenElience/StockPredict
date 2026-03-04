@@ -5,8 +5,9 @@
 1. 下载source code
 2. 执行`pip install -m requirement.txt`，pytorch自行根据显卡驱动版本安装。
 3. 额外需要单独安装ta-lib，以及sqlite3.
-4. 执行`python precomputer_lmdb.py`
-5. 运行`stock.ipynb`
+4. 获取A股数据：`python utils/sql.py`
+5. 执行`python precomputer_lmdb.py`生成时序切片数据
+6. 运行`stock.ipynb`
 
 ## 历史数据
 Akshare抓取数据（日线），使用splite3进行存储在本地，避免重复抓取导致数据获取失败。
@@ -31,6 +32,7 @@ Akshare抓取数据（日线），使用splite3进行存储在本地，避免重
 ### 损失函数
 - MSE
 - IC值，自定义
+
 
 
 
