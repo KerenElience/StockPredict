@@ -4,4 +4,6 @@ numpy
 pytorch
 matplotlib
 scipy
+jupyter
+ipykernel
 pytorch_forecasting
