@@ -1,0 +1,2 @@
+WINDOWN_SIZE = 30
+MODEL_TYPE = "LSTM-Transformer"
